@@ -1,0 +1,19 @@
+
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS to prevent scrolling */
+html, body {
+  height: 100%;          /* Ensure the body covers the entire viewport */
+  overflow: hidden;      /* Disable scrolling */
+}
+
+.bg-full-screen {
+  background-image: url('https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;    /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Keep the background fixed */
+}
